@@ -1,1 +1,1 @@
-FLASK_APP=server.py FLASK_DEBUG=1 python -m flask run --port=8080 --host=0.0.0.0
+FLASK_APP=server.py FLASK_DEBUG=1 python3 -m flask run --port=8080 --host=0.0.0.0

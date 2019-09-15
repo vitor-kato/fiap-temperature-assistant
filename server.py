@@ -1,10 +1,9 @@
 from flask import Flask
 from flask import jsonify
 from flask import request
-from LM35 import temperature
+import LM35
 
 app = Flask(__name__)
-
 
 # function for responses
 def results():
@@ -12,7 +11,7 @@ def results():
     req = request.get_json(force=True)
 # fetch action from json
     action = req.get('queryResult').get('action')
-    temp_now = "Temperature now: " + str(temperature()) + "C"
+    temp_now = "Temperature now: " + str(LM35.temperature()) + "C"
 # return a fulfillment response
     r = {
   "fulfillmentText": "Text response",
@@ -32,7 +31,7 @@ def results():
           {
             "simpleResponse": {
               "textToSpeech": temp_now,
-              "displayText": temperature()
+              "displayText": temp_now
             }
           }
         ]

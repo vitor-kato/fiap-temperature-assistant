@@ -5,6 +5,7 @@
 * MCP3008
 * LM35
 * Raspberry pi 3B
+* LCD Display 16x2
 
 ### How it works
 
