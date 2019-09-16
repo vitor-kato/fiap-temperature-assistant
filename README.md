@@ -26,6 +26,10 @@ Then we format the response, so DialogFlow can parse it and display to the user,
 
 ![Alt text](diagram.jpg?raw=true "Diagram")
 
+### Board
+
+![Alt text](board.jpeg?raw=true "Board")
+
 ### Working
 
 ![](get_temperature.gif)
