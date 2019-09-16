@@ -26,3 +26,6 @@ Then we format the response, so DialogFlow can parse it and display to the user,
 
 ![Alt text](diagram.jpg?raw=true "Diagram")
 
+### Working
+
+![](get_temperature.mp4)
