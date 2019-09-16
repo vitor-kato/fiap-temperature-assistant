@@ -28,4 +28,4 @@ Then we format the response, so DialogFlow can parse it and display to the user,
 
 ### Working
 
-![](get_temperature.mp4)
+![](get_temperature.gif)
